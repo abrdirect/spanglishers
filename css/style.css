@@ -55,9 +55,13 @@ p.whats {
     color: gray;
 }
 
-img.whatsicon {
-    color: green;
+/* img.whatsicon {
     height: 40px;
+} */
+
+img.qr {
+    width: 80px;
+    margin-left: 7px;
 }
 
 
