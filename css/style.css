@@ -10,7 +10,7 @@ header {
     justify-content: center;
 }
 
-h1, p {
+.text {
     color: white;
 }
 
@@ -31,4 +31,28 @@ p.strong {
     font-weight: 700;
 }
 
+section {
+    display: flex;
+    justify-content: center;
+}
 
+button {
+    height: 2rem;
+    margin: 2rem;
+}
+
+@media only screen and (max-width: 920px) {
+    p {
+        /* font-size: 14px; */
+        padding-left: 10px;
+    }
+    p.resp {
+        font-size: 13px;
+    }
+    section {
+        flex-direction: column;
+    }
+    button {
+        margin: 1rem;
+    }
+  }
