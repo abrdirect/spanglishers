@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    height: 200px;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,14 +32,34 @@ p.strong {
 }
 
 section {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 }
 
-button {
-    height: 2rem;
-    margin: 2rem;
+a {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    width: 30rem;
+    margin: 1rem;
+    height: 6rem;
+    text-decoration: none;
 }
+
+p.join {
+    color: black;
+}
+p.whats {
+    color: gray;
+}
+
+img.whatsicon {
+    color: green;
+    height: 40px;
+}
+
 
 @media only screen and (max-width: 920px) {
     p {
@@ -51,8 +71,7 @@ button {
     }
     section {
         flex-direction: column;
+        align-items: center;
     }
-    button {
-        margin: 1rem;
-    }
+  
   }
