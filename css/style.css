@@ -71,6 +71,7 @@ img.qr {
     section {
         flex-direction: column;
         align-items: center;
+        margin-top: 0px;
     }
   
   }
