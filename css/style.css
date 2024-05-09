@@ -1,6 +1,5 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: black;
 }
 
 header {
@@ -10,12 +9,26 @@ header {
     justify-content: center;
 }
 
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
 .text {
     color: white;
 }
 
-img {
+img.logo {
     width: 105px;
+}
+
+img.here {
+    display: block;
+    margin: 0 auto;
 }
 
 p {
@@ -37,28 +50,28 @@ section {
     justify-content: center;
 }
 
-a {
+div.links {
+    padding: 3rem;
     display: flex;
-    align-items: center;
-    background-color: white;
-    border-radius: 5px;
-    width: 23rem;
-    margin: 1rem;
-    height: 6rem;
+    justify-content: center;
+}
+
+a.rules {
+    color: white;
+    font-size: 3rem;
     text-decoration: none;
 }
 
-p.join {
-    color: black;
-}
-p.whats {
-    color: gray;
+a.backhome {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
 }
 
-img.qr {
-    width: 80px;
-    margin-left: 7px;
+section.fivethings {
+    color: white;
 }
+
 
 
 @media only screen and (max-width: 920px) {
