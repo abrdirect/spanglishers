@@ -96,5 +96,15 @@ img.meetup-logo {
         align-items: center;
         margin-top: 0px;
     }
-  
+    img.meetup-logo {
+        width: 40%;
+        display: block;
+        margin: auto;
+    }
+    a.rules {
+        color: white;
+        font-size: 2rem;
+        text-decoration: none;
+    }
+
   }
