@@ -8,7 +8,7 @@ body {
         rgba(0, 0, 0, 0.8)
       ),
       /* bottom, image */
-      url('../img/Waveslq.jpg') repeat fixed center;
+      url('../img/Waveslq.jpg') no-repeat fixed center;
 }
 
 
@@ -77,6 +77,11 @@ h1.centered {
     font-style: italic;
 }
 
+img.meetup-logo {
+    width: 20%;
+    display: block;
+    margin: auto;
+}
 
 
 @media only screen and (max-width: 920px) {
