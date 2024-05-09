@@ -8,7 +8,7 @@ body {
         rgba(0, 0, 0, 0.8)
       ),
       /* bottom, image */
-      url('../img/Waveslq.jpg') repeat static center;
+      url('../img/Waveslq.jpg') repeat fixed center;
 }
 
 
